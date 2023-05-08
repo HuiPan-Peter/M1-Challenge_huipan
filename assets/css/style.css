@@ -39,15 +39,39 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+    
+}
+
+.nav {
+    float: right;
+}
+.nav ul li {
+    float:right;
+    position: relative;
+    list-style: none;
+}
+.nav ul li a {
+    display: block;
+    line-height: 40px;
+    color: #fff;
+    font-size: 25px;
+    padding: 0 26px;
+}
+.nav ul li:hover a {
+    background: #194788;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
+a:link{color:green;}/*not been visited*/
+a:visited{color:red;}/*already been visited*/
+a:hover{color:blue;}/*mouse hover on*/
+a:active{color:yellow;}/*a tag been actived*/
 
 p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .hero {
@@ -196,5 +220,5 @@ p {
 }
 
 .footer h2 {
-    font-size: 20px;
+    font-size: 26px;
 }
